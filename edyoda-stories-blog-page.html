@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdYoda Stories Blog Page</title>
+    <style>
+        body {
+            margin: 0px;
+            background-color: aliceblue;
+        }
+
+        .header {
+            padding: 16px 78px;
+            background-color: #fff;
+        }
+
+        #edyoda {
+            padding-top: 0;
+            padding-left: 2px;
+        }
+
+        #explore,
+        #edyoda {
+            display: inline-block;
+            padding-top: 0%;
+            padding-right: 80px;
+        }
+
+        #filter {
+            max-width: 1080px;
+            margin: auto;
+        }
+
+        .dot {
+            height: auto;
+            width: auto;
+            margin: 5px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-left: 5px;
+            padding: 6px 15px;
+            border: 1px solid #0084ff;
+        }
+
+        .margine {
+            margin-left: 245px;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+            max-width: 1000px;
+            margin-left: 250px;
+        }
+
+        .card-container {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.5s;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+            margin: 5px;
+            height: 400px;
+            Justify-content: space-evenly;
+        }
+
+        .main-container img {
+            width: 100%;
+        }
+
+        .filter {
+            margin-left: 243px;
+        }
+
+        .text-container {
+            size: 18px;
+            text-align: left;
+            margin: 0px;
+            weight: 600;
+            padding: 10px;
+        }
+
+        .card-margine {
+            margin-left: 130px;
+            margin-right: 155px;
+        }
+
+        .small-edyoda {
+            font-style: italic;
+            font-size: 14px;
+            color: #0096ff;
+            font-weight: 500;
+            line-height: 0%;
+        }
+
+        .footer {
+            background-color: #172146;
+
+            padding: 30px 16%;
+        }
+
+        h2 {
+            margin-left: 250px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.43;
+            color: rgba(0, 0, 0, 6);
+            margin: 4px 0;
+        }
+
+
+        .edyoda-date-container {
+            display: flex;
+            flex-direction: row;
+            padding-top: 2px ;
+
+        }
+
+        .date-container {
+            color: rgba(0, 0, 0, 0, 7);
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 10%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div id="edyoda">
+            <h1 style="color:#0084ff; ; line-height: 0%;">EDYODA</h1>
+        </div>
+        <div id="explore">
+            <select name="cars" id="cars" style="border:none;">
+                <option value="volvo">Explore catogries</option>
+                <option value="saab">Class</option>
+            </select>
+        </div>
+        <div id="stories">
+            <h1
+                style="font-style: italic; font: raleway; line-height:0%; font-size:20px; font-weight: 500; margin: 0%;">
+                Stories</h1>
+        </div>
+    </div>
+    <h2>Trending Posts</h2>
+    <div class="filter">
+        <h3 class="filter" style="margin-left:8px; font-size:16px; line-height: 0%; margin-top:16px;"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQConrg2q055bKypNDQvkQQkmEhEMJh8Ruh80qJV6-lLg&s"
+                alt="logo" height="12px">Filter by catogries</h3>
+    </div>
+    <div class="margine">
+        <span class="dot" style="background-color: #0084ff;">All</span>
+        <span class="dot">Artificial intelligence</span>
+        <span class="dot">Cloud computing </span>
+        <span class="dot">DevOps</span>
+        <span class="dot">Programming Language</span>
+        <span class="dot">Mobile Application Development</span>
+        <span class="dot">Technology and Tools</span>
+        <span class="dot">Get a job in Tech Company</span>
+        <span class="dot">Others</span>
+    </div>
+    <div class="main-container">
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png"
+                alt="MI" height="176px">
+            <div class="text-container">
+                <h4><b>Introduction to a Machine learning online course</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:5px"> | 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consequat.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/6.png" alt="stack" height="176px">
+            <div class="text-container">
+                <h4 line-hight><b>LAMT Stack vs Mean stack</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:5px"> | 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    niuat.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/4.png" alt="MI" height="176px">
+            <div class="text-container">
+                <h4><b>Introduction to a Machine learning online course</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:5px"> | 21 Aug 2019</div>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris consequat.</p>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/3.png" alt="stack" height="176px">
+            <div class="text-container">
+                <h4><b>LAMT Stack vs Mean stack</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:5px"> | 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/5.png" alt="stack" height="176px">
+            <div class="text-container">
+                <h4><b>LAMT Stack vs Mean stack</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:5px"> | 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/7.png" alt="stack" height="176px">
+            <div class="text-container">
+                <h4><b>LAMT Stack vs Mean stack</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5> |
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:5px">| 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png"
+                alt="stack" height="176px">
+            <div class="text-container">
+                <h4><b>LAMT Stack vs Mean stack</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:5px"> | 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1.png" alt="stack"
+                height="176px">
+            <div class="text-container">
+                <h4><b>LAMT Stack vs Mean stack</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:4px"> | 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="card-container">
+            <img src="https://edyoda.s3.amazonaws.com/media/blog-images/practical_machine_learning_1.png" alt="stack"
+                height="176px">
+            <div class="text-container">
+                <h4><b>LAMT Stack vs Mean stack</b></h4>
+                <div class="edyoda-date-container">
+                    <div class="small-edyoda">
+                        <h5>EDYODA</h5>
+                    </div>
+                    <div class="date-container" style="padding-top: 19px; padding-left:20px; line-height: 0%;">| 21 Aug 2019</div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>
